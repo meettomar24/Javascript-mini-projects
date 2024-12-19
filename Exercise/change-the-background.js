@@ -11,3 +11,5 @@ function chooseBg() {
     }
 }
 chooseBg();
+
+// currently in progress for further improvements
