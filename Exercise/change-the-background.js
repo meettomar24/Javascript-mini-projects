@@ -1,6 +1,13 @@
-let backgroundcolor;
+let bgcolor;
 function chooseBg() {
-    backgroundcolor = prompt("Choose the color of Background");
-    document.body.style.background = backgroundcolor;
+    while(true){
+        bgcolor = prompt("Choose the color of Background");
+
+        if(!bgcolor){
+            break;
+        }
+        document.body.style.background = bgcolor;
+        break;
+    }
 }
-chooseBg()
+chooseBg();
